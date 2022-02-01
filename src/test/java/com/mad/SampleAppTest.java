@@ -1,5 +1,6 @@
 package com.mad;
 
+import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
@@ -13,8 +14,9 @@ public class AppTest
      * Rigorous Test :-)
      */
     @Test
-    public void shouldAnswerWithTrue()
+    public void newSampleViewInstance()
     {
-        assertTrue( true );
+        SampleView view = new SampleView();
+        assertNotNull(view);
     }
 }
