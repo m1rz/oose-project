@@ -10,6 +10,6 @@ public class SampleController {
     public static void main(String[] args) {
 
         SampleView window = new SampleView();
-
+        StorageService ss = StorageService.getService();
     }
 }
